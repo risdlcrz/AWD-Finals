@@ -1,0 +1,152 @@
+/* Your CSS styles */
+.title {
+  text-align: center;
+}
+
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  background-size: cover;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+.product {
+  flex: 0 1 calc(33.33% - 20px);
+  margin: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.product-image {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-color: #fff;
+  transition: transform 0.5s;
+}
+
+.product-image:hover {
+  transform: scale(1.1);
+}
+
+/* For the product page */
+
+.small-image {
+  filter: brightness(50%);
+}
+
+.small-image.active {
+  filter: brightness(100%);
+}
+
+.product-details > div:first-child {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.product-details > div:last-child {
+  flex: 2;
+}
+
+.product-details {
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  padding: 20px;
+  position: absolute;
+  top: 150px;
+  bottom: 0;
+  width: 100%;
+}
+
+.product-details .small-images {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.product-details .small-images img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.product-details .small-images img.active {
+  filter: brightness(100%);
+}
+
+.product-details h2 {
+  margin-top: 0;
+}
+
+.product-details .shades {
+  display: flex;
+  margin-top: 20px;
+}
+
+.product-details .shade {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.product-details h1 {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.product-details p {
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+  margin: 10px 0;
+}
+
+.product-details button {
+  font-size: 0.9rem;
+  padding: 5px 10px;
+}
+
+.product-details img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+#quantity-input {
+  width: 30%;
+  text-align: center;
+  padding: 0;
+  border: none;
+  outline: none;
+  margin-top: 10%;
+}
+
+
+/* Star rating */
+.stars {
+  display: flex;
+  direction: row;
+}
+
+.star {
+  cursor: pointer;
+  color: grey;
+  font-size: 1.5em;
+  transition: color 0.2s;
+}
+
+.star.rated {
+  color: gold;
+}

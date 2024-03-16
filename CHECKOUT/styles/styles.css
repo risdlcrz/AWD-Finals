@@ -1,0 +1,230 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  font-family: 'bebas neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/category.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  border-bottom: 1px solid #000;
+}
+
+header {
+  background-color: #E6DAD3;
+  background-size: 1px;
+}
+
+.logo-placeholder {
+  width: 10px;
+  height: 10px;
+  background-color: #f0f0f0;
+  margin-right: 1px;
+  float: left;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #74503E;
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  color: #74503E;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 8px 20px; 
+  border-radius: 20px;
+  width: 300px; 
+  background-image: url('./images/serds-removebg-preview.png'); 
+  background-size: 20px; 
+  background-position: 95% center; 
+  background-repeat: no-repeat; 
+  border: none; 
+}
+
+.user-options button {
+  background-color: transparent;
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.user-options button img {
+  width: 35px;
+  height: auto;
+}
+
+.categories {
+  text-align: center;
+}
+
+.title {
+  margin-top: 50px;
+}
+
+.category {
+  display: inline-block;
+  margin: 20px;
+}
+
+.category-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px; /* Adjust the border-radius to create rounded corners */
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.category-name {
+  display: block;
+  margin-top: 10px;
+}
+
+.title {
+  margin-top: 50px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white; /* Set color to white */
+  font-size: 100px; /* Increase font size */
+}
+
+.category-name {
+  font-family: 'Bebas Neue', sans-serif; 
+  color: #ffffff; 
+  font-size: 50px;
+  text-decoration: none; /* Remove underline */
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #74503E;
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  color: #74503E;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 8px 20px; 
+  border-radius: 20px;
+  width: 300px; 
+  background-image: url('serds-removebg-preview.png'); 
+  background-size: 20px; 
+  background-position: 95% center; 
+  background-repeat: no-repeat; 
+  border: none; 
+}
+
+.user-options {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  align-items: center; /* Adjust as needed */
+}
+
+.user-options button {
+  background-color: transparent;
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.user-options button img {
+  width: 35px; /* Set the width of the image to make it smaller */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+.main-content {
+  padding: 20px;
+}
+
+.buy-now-btn {
+  padding: 10px 20px; /* Adjust padding for button size */
+  border-radius: 20px; /* Rounded border */
+  border: none;
+  background-color: #74503E; /* Button background color */
+  color: white;
+  font-size: medium; /* Set font size to medium */
+  cursor: pointer;
+}
+
+
+footer {
+  margin-top: auto;   
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px 0; /* Increased padding for better spacing */
+}
+
+
+
+button.btn.btn-outline-success {
+  padding: 0; /* Remove padding */
+  border: none; /* Remove border */
+}
+
+button.btn.btn-outline-success img {
+  width: 20px; /* Adjust based on your preference */
+  height: 20px; /* Adjust based on your preference */
+  transform: none; /* Remove hover effect */
+}
+
+button.btn.btn-outline-success:hover {
+  background-color: initial; /* Remove hover background color */
+  color: initial; /* Remove hover text color */
+}
+
+.navbar.bg-body-tertiary {
+  background-color: #E5E5E5; /* Replace #yourColor with your desired color */
+}
