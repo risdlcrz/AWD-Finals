@@ -36,117 +36,168 @@ body {
   transform: scale(1.1);
 }
 
-/* For the product page */
 
-.small-image {
-  filter: brightness(50%);
+/*Javascript*/
+
+.stars {
+  font-size: 2em; 
 }
 
-.small-image.active {
-  filter: brightness(100%);
+.rating{
+  margin-bottom: 20px;
 }
 
-.product-details > div:first-child {
-  flex: 1;
-  margin-right: 20px;
+.rating-text {
+  font-size: 0.8em; 
 }
 
-.product-details > div:last-child {
-  flex: 2;
+body { background-color: black; font-family: Arial, sans-serif; 
 }
 
-.product-details {
+.container {
+  display: flex;
+  padding: 10px;
+  max-width: 100%; 
+  margin: auto;
+  height: 100%; 
+  margin-top: 40px; 
   background-color: white;
-  border-radius: 10px;
-  height: 100%;
+  border-radius: 30px;
+}
+
+
+.left {
+  margin-right: auto; /* Center horizontally */
+  margin-left: auto; /* Center horizontally */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center horizontally */
+}
+
+.right { 
+  flex-grow: 1; 
+  margin-left: 50px;
+}
+.small-images { 
+  display: flex; 
+  gap: 10px; 
+  margin-top: 10px; 
+}
+
+.small-images img { 
+  width: 70px; 
+  height: 70px; 
+  object-fit: cover; 
+}
+
+.wrapper{
+  height: 120px;
+  min-width: 380px;
   display: flex;
-  padding: 20px;
-  position: absolute;
-  top: 150px;
-  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0)
+}
+
+.wrapper span{
   width: 100%;
-}
-
-.product-details .small-images {
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.product-details .small-images img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  margin-right: 10px;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 600;
   cursor: pointer;
 }
 
-.product-details .small-images img.active {
-  filter: brightness(100%);
+.wrapper span.num{
+  font-size: 50px;
+  border-right: 2px solid rgba(0,0,0,2);
+  border-left: 2px solid rgba(0,0,0,2);
+  pointer-events: none;
 }
 
-.product-details h2 {
-  margin-top: 0;
+/* styles.css */
+.main-image {
+  width: 450px;
+  height: auto;
 }
 
-.product-details .shades {
+.small-image {
+  cursor: pointer;
+  align-items: center;
+}
+
+
+
+.reduced-brightness {
+  filter: brightness(50%);
+  transition: ease-in-out 0.2s;
+}
+
+.quantity-widget {
   display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.quantity-title {
+  margin-top: 25px;
+}
+
+.quantity-input{
+  width: 40px;
+  text-align: center;
+}
+
+.buttons-options {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Align items horizontally */
   margin-top: 20px;
 }
 
-.product-details .shade {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.product-details h1 {
-  font-size: 1.2rem;
-  margin-top: 0;
-}
-
-.product-details p {
-  font-size: 0.8rem;
-  margin-bottom: 20px;
-  margin: 10px 0;
-}
-
-.product-details button {
-  font-size: 0.9rem;
-  padding: 5px 10px;
-}
-
-.product-details img {
-  width: 60%;
-  height: auto;
-  display: block;
-  margin: 10px auto;
-}
-
-#quantity-input {
-  width: 30%;
-  text-align: center;
-  padding: 0;
+.add-to-cart-button,
+.buy-now-button {
+  transition: transform 0.3s, color 0.3s;
+  background-color: #8B4513;
+  color: #ffffff;
   border: none;
-  outline: none;
-  margin-top: 10%;
-}
-
-
-/* Star rating */
-.stars {
-  display: flex;
-  direction: row;
-}
-
-.star {
+  border-radius: 5px;
+  padding: 10px 20px;
   cursor: pointer;
-  color: grey;
-  font-size: 1.5em;
-  transition: color 0.2s;
+  visibility: visible; 
+  margin: 0 10px; /* Add margin to create spacing between buttons */
+  margin-top: 20px;
 }
 
-.star.rated {
-  color: gold;
+.heart-button:hover,
+.add-to-cart-button:hover,
+.buy-now-button:hover {
+  transform: scale(1.1);
+  background-color: #A0522D;
 }
+
+.heart-button:active,
+.add-to-cart-button:active,
+.buy-now-button:active {
+  background-color: #5F4B8B;
+}
+
+.heart-button img {
+  width: 28px;
+  height: auto;
+}
+
+.heart-button {
+  transition: transform 0.3s, color 0.3s;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  visibility: visible;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+
+
