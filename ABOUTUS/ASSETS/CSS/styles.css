@@ -1,0 +1,221 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'Bebas Neue', sans-serif; display: flex;
+    overflow: auto; 
+    display: flex;
+    flex-direction: column;   
+    min-height: 100vh; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover; 
+    background-image: url('/c:/Users/User/Desktop/ABOUTUS/ASSETS/IMAGES/bg.png'); 
+    user-select: none;
+    }
+  
+  header {
+    background-color: #E6DAD3;
+    background-size: 1px;
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    padding-top: 65px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #74503E;
+    font-weight: bold;
+  }
+  
+  nav ul li a.active {
+    color: #74503E;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input {
+    padding: 8px 20px; 
+    border-radius: 20px;
+    width: 300px; 
+    background-image: url('ASSETS/IMAGES/serds-removebg-preview.png'); 
+    background-size: 20px; 
+    background-position: 95% center; 
+    background-repeat: no-repeat; 
+    border: none; 
+  }
+  
+  .user-options button {
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .user-options button img {
+    width: 35px;
+    height: auto;
+  }
+
+ 
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #74503E;
+    font-weight: bold;
+  }
+  
+  nav ul li a.active {
+    color: #74503E;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input {
+    padding: 8px 20px; 
+    border-radius: 20px;
+    width: 300px; 
+    background-image: url('serds-removebg-preview.png'); 
+    background-size: 20px; 
+    background-position: 95% center; 
+    background-repeat: no-repeat; 
+    border: none; 
+  }
+  
+  .user-options {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center; /* Adjust as needed */
+  }
+  
+  .user-options button {
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .user-options button img {
+    width: 35px; /* Set the width of the image to make it smaller */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  button.btn.btn-outline-success {
+    padding: 0; /* Remove padding */
+    border: none; /* Remove border */
+  }
+  
+  button.btn.btn-outline-success img {
+    width: 20px; /* Adjust based on your preference */
+    height: 20px; /* Adjust based on your preference */
+    transform: none; /* Remove hover effect */
+  }
+  
+  button.btn.btn-outline-success:hover {
+    background-color: initial; /* Remove hover background color */
+    color: initial; /* Remove hover text color */
+  }
+  
+  .navbar.bg-body-tertiary {
+    background-color: #E5E5E5; /* Replace #yourColor with your desired color */
+  }
+  
+/*my part jdjshfjhdjkh  */
+
+  .aboutus { /* Applies to the aboutus text*/
+    text-align: center;
+    padding: 5px;
+  }
+
+  .aboutus h1 { /* Applies to the aboutus h1 */
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 125px;
+    color: #fff;
+    margin-bottom: 50px;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 4px rgba(10, 10, 10, 0.5);
+  }
+
+  .main-content { /* Applies to the description of abt us */
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-top: 20px; 
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    max-width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 250px;
+  }
+  
+  h2 { /* Applies to the h2 */
+    text-align: center;
+  }
+  
+
+img {
+  border-radius: 10px; /* Add border radius to all images */
+}
+
+
+
+.main-content img {
+  border-radius: 10px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer; 
+}
+
+.main-content img:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
