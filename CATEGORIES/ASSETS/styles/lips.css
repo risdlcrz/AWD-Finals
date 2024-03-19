@@ -1,0 +1,203 @@
+
+.title {
+  text-align: center;
+}
+
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  background-size: cover;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+.product {
+  flex: 0 1 calc(33.33% - 20px);
+  margin: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.product-image {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-color: #fff;
+  transition: transform 0.5s;
+}
+
+.product-image:hover {
+  transform: scale(1.1);
+}
+
+
+/*Javascript*/
+
+.stars {
+  font-size: 2em; 
+}
+
+.rating{
+  margin-bottom: 20px;
+}
+
+.rating-text {
+  font-size: 0.8em; 
+}
+
+body { background-color: black; font-family: Arial, sans-serif; 
+}
+
+.container {
+  display: flex;
+  padding: 10px;
+  max-width: 100%; 
+  margin: auto;
+  height: 100%; 
+  margin-top: 40px; 
+  background-color: white;
+  border-radius: 30px;
+}
+
+
+.left {
+  margin-right: auto; /* Center horizontally */
+  margin-left: auto; /* Center horizontally */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center horizontally */
+}
+
+.right { 
+  flex-grow: 1; 
+  margin-left: 50px;
+}
+.small-images { 
+  display: flex; 
+  gap: 10px; 
+  margin-top: 10px; 
+}
+
+.small-images img { 
+  width: 70px; 
+  height: 70px; 
+  object-fit: cover; 
+}
+
+.wrapper{
+  height: 120px;
+  min-width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0)
+}
+
+.wrapper span{
+  width: 100%;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.wrapper span.num{
+  font-size: 50px;
+  border-right: 2px solid rgba(0,0,0,2);
+  border-left: 2px solid rgba(0,0,0,2);
+  pointer-events: none;
+}
+
+/* styles.css */
+.main-image {
+  width: 450px;
+  height: auto;
+}
+
+.small-image {
+  cursor: pointer;
+  align-items: center;
+}
+
+
+
+.reduced-brightness {
+  filter: brightness(50%);
+  transition: ease-in-out 0.2s;
+}
+
+.quantity-widget {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.quantity-title {
+  margin-top: 25px;
+}
+
+.quantity-input{
+  width: 40px;
+  text-align: center;
+}
+
+.buttons-options {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Align items horizontally */
+  margin-top: 20px;
+}
+
+.add-to-cart-button,
+.buy-now-button {
+  transition: transform 0.3s, color 0.3s;
+  background-color: #8B4513;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  visibility: visible; 
+  margin: 0 10px; /* Add margin to create spacing between buttons */
+  margin-top: 20px;
+}
+
+.heart-button:hover,
+.add-to-cart-button:hover,
+.buy-now-button:hover {
+  transform: scale(1.1);
+  background-color: #A0522D;
+}
+
+.heart-button:active,
+.add-to-cart-button:active,
+.buy-now-button:active {
+  background-color: #5F4B8B;
+}
+
+.heart-button img {
+  width: 28px;
+  height: auto;
+}
+
+.heart-button {
+  transition: transform 0.3s, color 0.3s;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  visibility: visible;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+
+
