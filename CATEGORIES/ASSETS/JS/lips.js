@@ -36,8 +36,8 @@ window.onload = function () {
                           <meta charset="UTF-8">
                           <meta name="viewport" content="width=device-width, initial-scale=1.0">
                           <title>Eyes Category</title>
-                          <link rel="stylesheet" href="./styles/styles.css">
-                          <link rel="stylesheet" href="./styles/eyes.css">
+                          <link rel="stylesheet" href="./ASSETS/CSS/styles.css">
+                          <link rel="stylesheet" href="./ASSETS/CSS/eyes.css">
                           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
                           <!-- Bootstrap JS and jQuery (necessary for the navbar toggler) -->
                           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -73,13 +73,13 @@ window.onload = function () {
                                         <form class="d-flex" role="search">
                                           <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
                                           <button class="btn btn-outline-success" type="submit">
-                                            <img src="./images/serds-removebg-preview.png" alt="Search Icon">
+                                            <img src="./ASSETS/images/serds-removebg-preview.png" alt="Search Icon">
                                           </button>
                                         </form>
                                         <div class="user-options">
-                                          <button><img src="./images/hurt-removebg-preview.png" alt="Favorites Icon"></button>
-                                          <button><img src="./images/add2-removebg-preview.png" alt="Add to Cart Icon"></button>
-                                          <button><img src="./images/pro-removebg-preview.png" alt="Log In Icon"></button>
+                                          <button><img src="./ASSETS/images/hurt-removebg-preview.png" alt="Favorites Icon"></button>
+                                          <button><img src="./ASSETS/images/add2-removebg-preview.png" alt="Add to Cart Icon"></button>
+                                          <button><img src="./ASSETS/images/pro-removebg-preview.png" alt="Log In Icon"></button>
                                         </div>
                                       </div>
                                     </div>
@@ -104,7 +104,7 @@ window.onload = function () {
                                   <h6>Shades:</h6>                            
                               </div>
                           </div>
-                          <script src="./script/script.js"></script>
+                          <script src="./ASSETS/JS/script.js"></script>
                           <script>
                               var smallImagesArray = ${JSON.stringify(smallImagesArray)};
                               var productIndex = ${i};
@@ -182,7 +182,7 @@ window.onload = function () {
 
                               var buttonsHTML = \`
                                   <div class="buttons-options">
-                                      <button class="heart-button"><img src="./images/hurt-removebg-preview.png" alt="Favorites"></button>
+                                      <button class="heart-button"><img src="./ASSETS/images/hurt-removebg-preview.png" alt="Favorites"></button>
                                       <button class="add-to-cart-button">Add to Cart</button>
                                       <button class="buy-now-button">Buy Now</button>
                                   </div>
