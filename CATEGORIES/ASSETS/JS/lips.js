@@ -64,6 +64,7 @@ window.onload = function () {
                                                 Products
                                               </a>
                                               <ul class="dropdown-menu">
+                                              <li><a class="dropdown-item" href="index.html">Categories</a></li>
                                                 <li><a class="dropdown-item" href="eyes.html">Eyes</a></li>
                                                 <li><a class="dropdown-item" href="face.html">Face</a></li>
                                                 <li><a class="dropdown-item" href="lips.html">Lips</a></li>
@@ -73,7 +74,7 @@ window.onload = function () {
                                           <form class="d-flex" role="search">
                                             <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
                                             <button class="btn btn-outline-success" type="submit">
-                                              <img src="./images/serds-removebg-preview.png" alt="Search Icon">
+                                              <img src="./ASSETS/images/serds-removebg-preview.png" alt="Search Icon">
                                             </button>
                                           </form>
                                           <div class="user-options">

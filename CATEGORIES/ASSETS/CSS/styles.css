@@ -115,17 +115,20 @@ nav ul li a.active {
 }
 
 .title {
-  margin-top: 50px;
+  text-align: center;
   font-family: 'Bebas Neue', sans-serif;
-  color: white; /* Set color to white */
-  font-size: 100px; /* Increase font size */
+  font-size: 125px;
+  color: #fff;
+  margin-bottom: 50px;
+  letter-spacing: 10px;
+  text-shadow: 2px 2px 4px rgba(10, 10, 10, 0.5);
 }
 
 .category-name {
   font-family: 'Bebas Neue', sans-serif; 
   color: #ffffff; 
   font-size: 50px;
-  text-decoration: none; /* Remove underline */
+  text-decoration: none; 
 }
 
 

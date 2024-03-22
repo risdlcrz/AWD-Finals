@@ -64,6 +64,7 @@ window.onload = function () {
                                               Products
                                             </a>
                                             <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="index.html">Categories</a></li>
                                               <li><a class="dropdown-item" href="eyes.html">Eyes</a></li>
                                               <li><a class="dropdown-item" href="face.html">Face</a></li>
                                               <li><a class="dropdown-item" href="lips.html">Lips</a></li>
@@ -78,8 +79,12 @@ window.onload = function () {
                                         </form>
                                         <div class="user-options">
                                           <button><img src="./ASSETS/images/hurt-removebg-preview.png" alt="Favorites Icon"></button>
-                                          <button><img src="./ASSETS/images/add2-removebg-preview.png" alt="Add to Cart Icon"></button>
+                                          <a href="./CHECKOUT/index.html">
+                                            <button><img src="./ASSETS/images/add2-removebg-preview.png" alt="Add to Cart Icon"></button>
+                                            </a>
+                                          <a href="">
                                           <button><img src="./ASSETS/images/pro-removebg-preview.png" alt="Log In Icon"></button>
+                                           </a>
                                         </div>
                                       </div>
                                     </div>

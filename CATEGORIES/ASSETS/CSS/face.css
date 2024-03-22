@@ -1,20 +1,17 @@
 
 .title {
   text-align: center;
-}
-
-body {
-  font-family: 'Bebas Neue', sans-serif;
-  background-size: cover;
-}
-
-h1 { 
   font-family: 'Bebas Neue', sans-serif;
   font-size: 125px;
   color: #fff;
   margin-bottom: 50px;
   letter-spacing: 10px;
   text-shadow: 2px 2px 4px rgba(10, 10, 10, 0.5);
+}
+
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  background-size: cover;
 }
 
 .products {
