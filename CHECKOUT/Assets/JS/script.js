@@ -105,4 +105,3 @@ var checkoutButton = document.querySelector('.pay-btn');
 checkoutButton.addEventListener('click', function() {
     showRatingBox();
 });
-

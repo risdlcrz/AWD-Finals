@@ -5,10 +5,6 @@ body,html {
   font-family:lato;
 }
 
-body{
-  background-image: url('../Images/category.png');
-}
-
 h2 {
   margin-bottom:0px;
   margin-top:25px;
@@ -33,7 +29,6 @@ h2 {
   display:-ms-flexbox;
   display:flex;
   background-color: #e6dad3;
-  margin-top: 100px;
 }
 .dropdown-select.visible {
   display:block;
@@ -276,8 +271,8 @@ ul li:hover {
     border-radius:0px;
   }
   .pay-btn {
-    border-radius:0px;
-  }
+    margin-top: -10px; /* Adjust to move the button up */
+}
   
 }
 
@@ -315,7 +310,23 @@ ul li:hover {
 }
 
 .star.filled, .star:hover {
-    color: #ffc107;
+    color: #ffc107; /* Change to your preferred color */
+}
+
+.cancel-btn {
+  border: none;
+  background: #f43535;
+  line-height: 2em;
+  border-radius: 14px;
+  font-size: 16px;
+  color: #dedede;
+  cursor: pointer;
+  margin-top: 30px; /* Adjust as needed */
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.cancel-btn:hover {
+  background-color: #7e1b1b; /* Change background color on hover */
 }
 
 
