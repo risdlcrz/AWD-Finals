@@ -2,9 +2,12 @@ window.onload = function () {
   var products = document.getElementsByClassName('product');
 
   var smallImagesArray = [
-      ['./ASSETS/images/71UHKb48rVL._SL1500_-removebg-preview.png', 'small_image_2_product_1.jpg', 'small_image_3_product_1.jpg'],
+      ['./ASSETS/images/71UHKb48rVL._SL1500_-removebg-preview.png'],
       ['./ASSETS/images/mac_ripened_001_product-removebg-preview.png', './ASSETS/images/midtonebluepink.avif', './ASSETS/images/lightcognac.avif', './ASSETS/images/brightbloodorange.avif', './ASSETS/images/blackenedchocobrown.avif'],
-      // Add more arrays for each product as needed
+      ['./ASSETS/images/medium_1514845687-removebg-preview.png'],
+      ['./ASSETS/images/bloz.jpg'],
+      ['./ASSETS/images/14204000-1985020843099827-removebg-preview.png'],
+      ['./ASSETS/images/exagger-eyes-packshot-removebg-preview.png']
   ];
 
   for (var i = 0; i < products.length; i++) {
@@ -151,9 +154,12 @@ window.onload = function () {
 
                               // Define shade names array for each product
                               var shadeNamesArray = [
-                                  ["Light Rose", "Old Rose", "Deep Rose"], // Shade names for product 1
-                                  ["Soft Midtone Mauve", "Midtone Blue Pink", "Light Cognac", "Bright Blood Orange", "Blackened Choco Brown"] // Shade names for product 2
-                                  // Add more arrays for additional products as needed
+                                  ["New Nude palette"],
+                                  ["Powder Kiss Soft","Soft Midtone Mauve", "Midtone Blue Pink", "Light Cognac", "Bright Blood Orange", "Blackened Choco Brown"],
+                                  ["Lashcraft Lengthening & Volumizing Mascara"],
+                                  ["Perfect Strokes Matte Liquid Liner"],
+                                  ["Orgasm Rising Eyeshadow],
+                                  ["Bigger Brighter Eyes Exagger-Eyes Palette"]
                               ];
 
                               // Populate dropdown with shade options

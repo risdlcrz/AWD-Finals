@@ -2,9 +2,12 @@ window.onload = function () {
   var products = document.getElementsByClassName('product');
 
   var smallImagesArray = [
-      ['./ASSETS/images/71UHKb48rVL._SL1500_-removebg-preview.png', 'small_image_2_product_1.jpg', 'small_image_3_product_1.jpg'],
-      ['./ASSETS/images/mac_ripened_001_product-removebg-preview.png', './ASSETS/images/midtonebluepink.avif', './ASSETS/images/lightcognac.avif', './ASSETS/images/brightbloodorange.avif', './ASSETS/images/blackenedchocobrown.avif'],
-      // Add more arrays for each product as needed
+      ['./ASSETS/images/chantecaille-5198-7767112-1.png'],
+      ['./ASSETS/images/e-l-f-Hydrating-Camo-Concealer-Medium-Neutral_4d41ae99-e9e1-4497-ab63-951af8f8bfdf.056cee29b3b7c3f095813d9ac292f8d3.png','./ASSETS/images/fair150.png', './ASSETS/images/fair140.png', './ASSETS/images/fair124.png', './ASSETS/images/fair120.png', './ASSETS/images/fair100.png'],
+      ['./ASSETS/images/mir.jpg', './ASSETS/images/sunlight001.png', './ASSETS/images/sunbronze002.png', './ASSETS/images/sunset003.png', './ASSETS/images/sundown004.png'],
+      ['./ASSETS/images/lau043_lauramercier_translucentloosesettingpowder_1_1560x1960-kxfd4_1200x1200.png', './ASSETS/images/silo.png', './ASSETS/images/honey silo.png', './ASSETS/images/medium deep silo.png'],
+      ['./ASSETS/images/w2000_a3-4_q60.png', './ASSETS/images/petal.png','./ASSETS/images/minette.png','./ASSETS/images/mimi.png','./ASSETS/images/doudou.png','./ASSETS/images/chouchette.png'],
+      ['./ASSETS/images/mlt.jpg', './ASSETS/images/cava.jpg', './ASSETS/images/bounce rose gold.png']
   ];
 
   for (var i = 0; i < products.length; i++) {
@@ -151,9 +154,12 @@ window.onload = function () {
 
                               // Define shade names array for each product
                               var shadeNamesArray = [
-                                  ["Light Rose", "Old Rose", "Deep Rose"], // Shade names for product 1
-                                  ["Soft Midtone Mauve", "Midtone Blue Pink", "Light Cognac", "Bright Blood Orange", "Blackened Choco Brown"] // Shade names for product 2
-                                  // Add more arrays for additional products as needed
+                                  ["Compact Makeup"], 
+                                  ["Camo Concealer", "Fair 150 C", "Fair 140 W", "Fair 124 C", "Fair 120 N", "Fair 100 W"],
+                                  ["Rimmer Bronzer", "Sunlight", "Sunbronze", "Sunset", "Sundown"],
+                                  ["Translucent", "Silo", "Honey Silo", "Medium Deep Silo"],
+                                  ["Baby Cheeks", "Petal", "Minette", "Mimi", "Doudou", "Chouchette"],
+                                  ["Merit day glow", "Cava", "Bounce Rose Gold"]
                               ];
 
                               // Populate dropdown with shade options

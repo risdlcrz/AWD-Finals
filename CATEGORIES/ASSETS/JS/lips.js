@@ -2,9 +2,12 @@ window.onload = function () {
     var products = document.getElementsByClassName('product');
   
     var smallImagesArray = [
-        ['./ASSETS/images/71UHKb48rVL._SL1500_-removebg-preview.png', 'small_image_2_product_1.jpg', 'small_image_3_product_1.jpg'],
-        ['./ASSETS/images/mac_ripened_001_product-removebg-preview.png', './ASSETS/images/midtonebluepink.avif', './ASSETS/images/lightcognac.avif', './ASSETS/images/brightbloodorange.avif', './ASSETS/images/blackenedchocobrown.avif'],
-        // Add more arrays for each product as needed
+        ['./ASSETS/images/gio.jpg', 'small_image_2_product_1.jpg', 'small_image_3_product_1.jpg'],
+        ['./ASSETS/images/roid.jpg'],
+        ['./ASSETS/images/rou.png'],
+        ['./ASSETS/images/fen.jpg','./ASSETS/images/bubble rum.png','./ASSETS/images/cookies & cocoa.png','./ASSETS/images/glazed.png','./ASSETS/images/goji gang.png'],
+        ['./ASSETS/images/bb_sku_EMCK06_1x1_0.png','./ASSETS/images/rock & red true blue red.png', './ASSETS/images/new romantic midtone neutral pink.png','./ASSETS/images/love letter sheer bright rose.png','./ASSETS/images/in the buff beige rose.png','./ASSETS/images/free spirit lush pink beige.png'],
+        ['./ASSETS/images/pnc.jpeg']
     ];
   
     for (var i = 0; i < products.length; i++) {
@@ -151,9 +154,13 @@ window.onload = function () {
   
                                 // Define shade names array for each product
                                 var shadeNamesArray = [
-                                    ["Light Rose", "Old Rose", "Deep Rose"], // Shade names for product 1
-                                    ["Soft Midtone Mauve", "Midtone Blue Pink", "Light Cognac", "Bright Blood Orange", "Blackened Choco Brown"] // Shade names for product 2
-                                    // Add more arrays for additional products as needed
+                                    ["Neo Nude ecstacy Balm"],
+                                    ["Lip Maximizer Serum"],
+                                    ["Rouge Allure Velvet"],
+                                    ["Slip Shine Sheer Shiny Lipstick", "Bubble Rum", "Cookies & Cocoa", "Glaze", "Goji Gang"],
+                                    ["Tinted Lip Gloss", "Rock & Red True Blue Red", "New Romantic Midtone Neutral Pink", "Love Letter Sheer Bright Rose", "In The Buff Beige Rose", "Free Spirit Lush Pink Beige"],
+                                    ["Mini Lip Liner Trio"]
+                                    
                                 ];
   
                                 // Populate dropdown with shade options
