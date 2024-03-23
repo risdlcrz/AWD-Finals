@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover; 
-    background-image: url('/ASSETS/IMAGES/bg.png'); 
+    background-image: url('../IMAGES/bg.png'); 
     user-select: none;
     }
   
@@ -147,19 +147,19 @@
   }
   
   button.btn.btn-outline-success {
-    padding: 0; /* Remove padding */
-    border: none; /* Remove border */
+    padding: 0; 
+    border: none; 
   }
   
   button.btn.btn-outline-success img {
-    width: 20px; /* Adjust based on your preference */
-    height: 20px; /* Adjust based on your preference */
-    transform: none; /* Remove hover effect */
+    width: 20px; 
+    height: 20px; 
+    transform: none; 
   }
   
   button.btn.btn-outline-success:hover {
-    background-color: initial; /* Remove hover background color */
-    color: initial; /* Remove hover text color */
+    background-color: initial; 
+    color: initial; 
   }
   
   .navbar.bg-body-tertiary {
@@ -189,7 +189,7 @@
     padding-right: 50px;
     padding-bottom: 20px;
     padding-left: 50px;
-    max-width: 50%;
+    width: 60%;
     margin: 0 auto;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
     text-align: justify;

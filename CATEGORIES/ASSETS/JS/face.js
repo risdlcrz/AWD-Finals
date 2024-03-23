@@ -44,48 +44,48 @@ window.onload = function () {
                           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
                           </head>
                           <body>
-                                <header>
-                                  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                                    <div class="container-fluid">
-                                      <a class="navbar-brand" href="#"><img src="pola.png" alt="Brand Logo" id="brand"></a>
-                                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                        <span class="navbar-toggler-icon"></span>
-                                      </button>
-                                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                          <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                          </li>
-                                          <li class="nav-item">
-                                            <a class="nav-link" href="#">About Us</a>
-                                          </li>
-                                          <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                              Products
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="index.html">Categories</a></li>
-                                              <li><a class="dropdown-item" href="eyes.html">Eyes</a></li>
-                                              <li><a class="dropdown-item" href="face.html">Face</a></li>
-                                              <li><a class="dropdown-item" href="lips.html">Lips</a></li>
-                                            </ul>
-                                          </li>
-                                        </ul>
-                                        <form class="d-flex" role="search">
-                                          <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-                                          <button class="btn btn-outline-success" type="submit">
-                                            <img src="./ASSETS/images/serds-removebg-preview.png" alt="Search Icon">
-                                          </button>
-                                        </form>
-                                        <div class="user-options">
-                                          <button><img src="./ASSETS/images/hurt-removebg-preview.png" alt="Favorites Icon"></button>
-                                          <button><img src="./ASSETS/images/add2-removebg-preview.png" alt="Add to Cart Icon"></button>
-                                          <button><img src="./ASSETS/images/pro-removebg-preview.png" alt="Log In Icon"></button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </nav>
-                                </header>
+                          <header>
+                          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                            <div class="container-fluid">
+                              <a class="navbar-brand" href="../HOMEPAGE/index.html"><img src="pola.png" id="brand"></a>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../HOMEPAGE/index.html">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="../ABOUTUS/index.html">About Us</a>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Products
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="index.html">Categories</a></li>
+                                      <li><a class="dropdown-item" href="eyes.html">Eyes</a></li>
+                                      <li><a class="dropdown-item" href="face.html">Face</a></li>
+                                      <li><a class="dropdown-item" href="lips.html">Lips</a></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                                <form class="d-flex" role="search">
+                                  <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                                  <button class="btn btn-outline-success" type="submit">
+                                    <img src="./ASSETS/images/serds-removebg-preview.png" alt="Search"> 
+                                  </button>
+                                </form>
+                                <div class="user-options">
+                                  <button onclick="location.href='../CHECKOUT/index.html'"><img src="./ASSETS/images/hurt-removebg-preview.png" alt="Favorites"></button> 
+                                  <button onclick="location.href='../CHECKOUT/index.html'"><img src="./ASSETS/images/add2-removebg-preview.png" alt="Add to Cart"></button>
+                                  <button onclick="location.href='../index.html'"><img src="./ASSETS/images/pro-removebg-preview.png" alt="Profile"></button>
+                                </div>
+                              </div>
+                            </div>
+                          </nav>
+                        </header>
                           <div class="container">
                               <div class="left">
                                   <img src="${productImage}" alt="${productName}" class="main-image">
@@ -183,9 +183,9 @@ window.onload = function () {
 
                               var buttonsHTML = \`
                                   <div class="buttons-options">
-                                      <button class="heart-button"><img src="./ASSETS/images/hurt-removebg-preview.png" alt="Favorites"></button>
-                                      <button class="add-to-cart-button">Add to Cart</button>
-                                      <button class="buy-now-button">Buy Now</button>
+                                      <button class="heart-button" onclick="location.href='../CHECKOUT/index.html'"><img src="./ASSETS/images/hurt-removebg-preview.png" alt="Favorites"></button>
+                                      <button class="add-to-cart-button" onclick="location.href='../CHECKOUT/index.html'">Add to Cart</button>
+                                      <button class="buy-now-button" onclick="location.href='../CHECKOUT/index.html'">Buy Now</button>
                                   </div>
                               \`;
 

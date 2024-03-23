@@ -5,6 +5,10 @@ body,html {
   font-family:lato;
 }
 
+body{
+  background-image: url('../Images/category.png');
+}
+
 h2 {
   margin-bottom:0px;
   margin-top:25px;
@@ -29,6 +33,7 @@ h2 {
   display:-ms-flexbox;
   display:flex;
   background-color: #e6dad3;
+  margin-top: 100px;
 }
 .dropdown-select.visible {
   display:block;
@@ -310,5 +315,8 @@ ul li:hover {
 }
 
 .star.filled, .star:hover {
-    color: #ffc107; /* Change to your preferred color */
+    color: #ffc107;
 }
+
+
+
